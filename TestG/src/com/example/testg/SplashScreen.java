@@ -16,7 +16,7 @@ public class SplashScreen extends Activity{
 	protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_splash);
-		
+		//This will handle the splash screen running for SPLASH_TIME_OUT
 		new Handler().postDelayed(new Runnable(){
 			
 			@Override
@@ -29,7 +29,9 @@ public class SplashScreen extends Activity{
 				finish();
 			}
 		}, SPLASH_TIME_OUT);
-		
+		/*	
+		 * Gonna try and check if its the first time they opened the app
+		 * 	to ask for information
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 		if(!prefs.getBoolean("first_time",false)){
 			SharedPreferences.Editor editor = prefs.edit();
@@ -40,14 +42,14 @@ public class SplashScreen extends Activity{
 			finish();
 		}else{
 			this.setContentView(R.layout.activity_splash);
-/*			
+			
 			String m = "second time";
 			Message msg = Message.obtain();
 			msg.obj = m;
 			msg.setTarget(handler);
 			msg.sendToTarget();
-			*/
-		}
+			
+		}*/
 		
 	
 	}

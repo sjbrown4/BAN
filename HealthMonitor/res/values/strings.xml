@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Health Monitor</string>
+    <string name="action_settings">Settings</string>
+   <string name="hello_world">Hello world!</string>
+   <string name="on">Turn On BlueTooth Adapter</string>
+   <string name="off">Turn Off BlueTooth Adapter</string>
+   <string name="Visible">Get Visible</string>
+   <string name="List">List Paired Devices</string>
+   <string name="Scan ">Scanning for BlueTooth Devices</string>
+</resources>

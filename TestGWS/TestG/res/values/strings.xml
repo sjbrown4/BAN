@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestG</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="HeartMonitor">Welcome to the Heart Monitor!</string>
+    <string name="start_prog">Start Heart Rate Monitoring</string>
+    <string name="view">View Past Reports</string>
+    <string name="edit">Edit Settings</string>
+    <string name="help">Help and Feedback</string>
+    <string name="title_activity_main_view">Home</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

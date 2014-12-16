@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+C:\Users\Andrew\Desktop\TestGWS\.metadata\.plugins\org.eclipse.jdt.core
+251762165.index
+3241303241.index
+150835412.index
+4273584605.index
+766152906.index

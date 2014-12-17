@@ -10,5 +10,10 @@
     <string name="help">Help and Feedback</string>
     <string name="title_activity_main_view">Home</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="title_activity_startit">StartitActivity</string>
 
 </resources>

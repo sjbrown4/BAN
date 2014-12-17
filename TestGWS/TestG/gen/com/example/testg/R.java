@@ -245,24 +245,21 @@ containing a value of this type.
         public static final int default_gap=0x7f040000;
     }
     public static final class drawable {
-        public static final int downloads_icon=0x7f020000;
-        public static final int edit_icon=0x7f020001;
-        public static final int help_icon=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int splash=0x7f020004;
-        public static final int start_icon=0x7f020005;
-        public static final int view_icon=0x7f020006;
+        public static final int bluetooth_icon=0x7f020000;
+        public static final int downloads_icon=0x7f020001;
+        public static final int edit_icon=0x7f020002;
+        public static final int help_icon=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int splash=0x7f020005;
+        public static final int start_icon=0x7f020006;
+        public static final int view_icon=0x7f020007;
     }
     public static final class id {
         public static final int LinearLayout1=0x7f070013;
         public static final int ScreenLayout=0x7f070012;
-        public static final int TextView01=0x7f070020;
-        public static final int TextView02=0x7f070024;
-        public static final int TextView03=0x7f07001f;
-        public static final int TextView04=0x7f070022;
-        public static final int action_settings=0x7f07002b;
         public static final int alignBounds=0x7f070002;
         public static final int alignMargins=0x7f070003;
+        public static final int bluetoothButton=0x7f07001f;
         public static final int bottom=0x7f070004;
         public static final int button1=0x7f07001c;
         public static final int center=0x7f070005;
@@ -270,9 +267,9 @@ containing a value of this type.
         public static final int center_vertical=0x7f070007;
         public static final int clip_horizontal=0x7f070008;
         public static final int clip_vertical=0x7f070009;
-        public static final int downloadButton=0x7f070025;
-        public static final int edit=0x7f070029;
-        public static final int editButton=0x7f070027;
+        public static final int downloadButton=0x7f070020;
+        public static final int edit=0x7f070027;
+        public static final int editButton=0x7f070023;
         public static final int editText1=0x7f070015;
         public static final int editText2=0x7f070017;
         public static final int editText3=0x7f070019;
@@ -281,32 +278,37 @@ containing a value of this type.
         public static final int fill=0x7f07000b;
         public static final int fill_horizontal=0x7f07000c;
         public static final int fill_vertical=0x7f07000d;
-        public static final int help=0x7f07002a;
-        public static final int helpButton=0x7f070021;
+        public static final int help=0x7f070028;
+        public static final int helpButton=0x7f070022;
         public static final int horizontal=0x7f070000;
         public static final int left=0x7f07000e;
-        public static final int linearLayout1=0x7f07001d;
-        public static final int linearLayout2=0x7f07001e;
         public static final int right=0x7f07000f;
         public static final int start=0x7f070010;
-        public static final int startButton=0x7f070026;
+        public static final int startButton=0x7f07001e;
         public static final int textView1=0x7f070014;
         public static final int textView2=0x7f070016;
         public static final int textView3=0x7f070018;
         public static final int textView4=0x7f07001a;
+        public static final int textView5=0x7f070024;
+        public static final int textView6=0x7f070025;
+        public static final int textView7=0x7f07001d;
         public static final int top=0x7f070011;
         public static final int vertical=0x7f070001;
-        public static final int view=0x7f070028;
-        public static final int viewButton=0x7f070023;
+        public static final int view=0x7f070026;
+        public static final int viewButton=0x7f070021;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int activity_main_view=0x7f030001;
-        public static final int activity_splash=0x7f030002;
+        public static final int activity_download=0x7f030000;
+        public static final int activity_help=0x7f030001;
+        public static final int activity_main=0x7f030002;
+        public static final int activity_main_view=0x7f030003;
+        public static final int activity_splash=0x7f030004;
+        public static final int activity_startit=0x7f030005;
+        public static final int activity_view=0x7f030006;
+        public static final int custom_setting=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f060000;
-        public static final int main_view=0x7f060001;
     }
     public static final class string {
         public static final int HeartMonitor=0x7f050002;
@@ -316,7 +318,12 @@ containing a value of this type.
         public static final int hello_world=0x7f050001;
         public static final int help=0x7f050006;
         public static final int start_prog=0x7f050003;
+        public static final int title_activity_download=0x7f05000c;
+        public static final int title_activity_help=0x7f050009;
         public static final int title_activity_main_view=0x7f050007;
+        public static final int title_activity_setting=0x7f05000a;
+        public static final int title_activity_startit=0x7f05000d;
+        public static final int title_activity_view=0x7f05000b;
         public static final int view=0x7f050004;
     }
     public static final class styleable {

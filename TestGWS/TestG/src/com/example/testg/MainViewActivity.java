@@ -19,7 +19,7 @@ public class MainViewActivity extends Activity {
 		
 		/*Sheena Brown
 		 * 
-		 * page that mainacivity button goes to, is the page that will display the 'home' area 
+		 * page that mainactivity button goes to, is the page that will display the 'home' area 
 		 * as well as display some of the information to the user (such as name)
 		 * 
 		 * TODO: Get the information saved in the settings part
@@ -32,18 +32,24 @@ public class MainViewActivity extends Activity {
 	    String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 	
 	    //put name in menu
-	    TextView msg =(TextView)findViewById(R.id.textView1);
+	    TextView msg =(TextView)findViewById(R.id.textView7);
 	
 	    msg.setTextSize(12);
 	    msg.setText(message);
-
+/*
+ * Sheena Brown
+ * 
+ * Handling button clicks
+ * 
+ */
 	    
 	    ImageButton help = (ImageButton)findViewById(R.id.helpButton);
 	    help.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+				Intent intent = new Intent(MainViewActivity.this, HelpActivity.class);
+            	startActivity(intent);
 				
 			}
 		});
@@ -52,7 +58,8 @@ public class MainViewActivity extends Activity {
 	    setti.setOnClickListener(new View.OnClickListener(){
 	    	@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+				Intent intent1 = new Intent(MainViewActivity.this,SettingActivity.class);
+				startActivity(intent1);
 				
 			}
 	    });
@@ -62,8 +69,8 @@ public class MainViewActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				
+				Intent intent2 = new Intent(MainViewActivity.this,ViewActivity.class);
+				startActivity(intent2);
 			}
 		});	
 	    
@@ -72,7 +79,8 @@ public class MainViewActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+				Intent intent3 = new Intent(MainViewActivity.this, DownloadActivity.class);
+				startActivity(intent3);
 				
 			}
 		});
@@ -82,11 +90,23 @@ public class MainViewActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				
+				Intent intent4 = new Intent(MainViewActivity.this, StartitActivity.class);
+				startActivity(intent4);
 			}
 		});
 	    
+	    ImageButton bluetooth = (ImageButton)findViewById(R.id.bluetoothButton);
+	    bluetooth.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+
+				
+					//Intent intent5 = new Intent(MainViewActivity.this, theclassofyourbluetooth.class);
+					//startActivity(intent5);
+				
+			}
+		});
 	   
 		 
 	}
@@ -97,10 +117,10 @@ public class MainViewActivity extends Activity {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
+		/*int id = item.getItemId();
 		if (id == R.id.action_settings) {
 			return true;
-		}
+		}*/
 		return super.onOptionsItemSelected(item);
 	}
 	 
